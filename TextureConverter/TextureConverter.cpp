@@ -14,7 +14,7 @@ TextureConverter::~TextureConverter()
 
 }
 
-void TextureConverter::ConvertTextureWICToDDS(const std::string& filePath)
+void TextureConverter::ConvertTextureWICToDDS(const std::string& filePath) 
 {
 	//テクスチャファイルを読み込む
 	LoadWICTextureFromFile(filePath);
